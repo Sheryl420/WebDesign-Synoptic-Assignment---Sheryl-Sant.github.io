@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #000092;
+  }
+  
+  /* Background Image */
+  main {
+    background-image: url('https://media.licdn.com/dms/image/v2/C4E1BAQEWb101CZY0Rg/company-background_10000/company-background_10000/0/1618997901397/malta_college_of_arts_science__technology_mcast__cover?e=2147483647&v=beta&t=kGWz0UmytksMQR7Bm1CAr_OqRjt_CgeVR6tZrdst98c'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header */
+  header {
+    background-color: #F5A623; /* semi-transparent black */
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .left-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .left-header img.logo {
+    height: 35px;
+  }
+  
+  .left-header img.icon {
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #000092;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #4A90E2;
+  }
+  
+  /* Center Content */
+  .center-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .center-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .center-content img.center-logo {
+    margin-top: 20px;
+    width: 150px;
+    height: auto;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nav-links {
+      gap: 15px;
+    }
+  
+    .center-content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .center-content img.center-logo {
+      width: 100px;
+    }
+    
+  }
+  
