@@ -1,0 +1,132 @@
+/* General */
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  /* Header */
+  header {
+    background-color: #F5A623;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .left-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .logo {
+    height: 35px;
+  }
+  
+  .icon {
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #000092;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #4A90E2;
+  }
+  /* Portal Section */
+.portal-section {
+    background-color: #4A90E2;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .portal-box {
+    background-color: #7ED321;
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  /* Left side: form */
+  .portal-form {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .welcome-title {
+    font-size: 2rem;
+    color: #000092;
+    margin-bottom: 20px;
+  }
+  .portal-form h2 {
+    margin-bottom: 20px;
+    color: #000092;
+  }
+  
+  .portal-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input-circle {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: #000092;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0404c6;
+  }
+  
+  .forgot {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Right side: Classter logo */
+  .portal-logo {
+    flex: 1;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .portal-logo img {
+    width: 300px;
+    height: auto;
+  }

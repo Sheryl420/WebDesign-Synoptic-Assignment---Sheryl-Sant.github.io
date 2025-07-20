@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contact-style.css" />
+</head>
+<body>
+
+  <!-- Header (same as other pages) -->
+  <header class="header">
+    <img src="images/New_Logo4-1.png" alt="MCAST Logo" class="logo" />
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="student-portal.html">Student Portal</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="left-column">
+      <h1>Welcome to the Contact Page</h1>
+      <p>If you have any questions, suggestions, or need assistance, feel free to reach out to us. You can contact the school by filling out the form on this page — we’ll get back to you via your preferred method as soon as possible.</p>
+      <img src="images/2f858a09f3271041e09895b806232179.jpg" alt="Contact Us Image" />
+    </div>
+
+    <div class="right-column">
+      <form class="contact-form">
+        <input type="text" placeholder="Name & Surname" required />
+        <input type="text" placeholder="Mobile Number" required />
+        <input type="email" placeholder="Email Address" required />
+
+        <label class="contact-method-label">Preferred Contact Method:</label>
+        <div class="contact-methods">
+          <label><input type="radio" name="method" value="meeting" required /> Meeting</label>
+          <label><input type="radio" name="method" value="email" /> Email</label>
+          <label><input type="radio" name="method" value="phone" /> Phone</label>
+        </div>
+
+        <textarea placeholder="Your Query or Suggestion" rows="5" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
