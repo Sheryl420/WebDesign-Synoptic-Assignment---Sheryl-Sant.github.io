@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     margin: 0;
     font-family: sans-serif;
@@ -7,7 +6,7 @@ body {
   
   /* Background Image */
   main {
-    background-image: url('https://media.licdn.com/dms/image/v2/C4E1BAQEWb101CZY0Rg/company-background_10000/company-background_10000/0/1618997901397/malta_college_of_arts_science__technology_mcast__cover?e=2147483647&v=beta&t=kGWz0UmytksMQR7Bm1CAr_OqRjt_CgeVR6tZrdst98c'); /* Replace with your background image */
+    background-image: url('https://media.licdn.com/dms/image/v2/C4E1BAQEWb101CZY0Rg/company-background_10000/company-background_10000/0/1618997901397/malta_college_of_arts_science__technology_mcast__cover?e=2147483647&v=beta&t=kGWz0UmytksMQR7Bm1CAr_OqRjt_CgeVR6tZrdst98c'); 
     background-size: cover;
     background-position: center;
     height: 100vh;
