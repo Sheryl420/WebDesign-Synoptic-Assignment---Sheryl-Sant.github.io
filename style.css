@@ -94,4 +94,47 @@ body {
     }
     
   }
+  .footer {
+    background-color: #4A90E2; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    font-family: 'Arial', sans-serif;
+    flex-wrap: wrap;
+  }
+  
+  .footer-left {
+    max-width: 60%;
+    font-size: 14px;
+  }
+  
+  .footer-left p {
+    margin-bottom: 15px;
+    line-height: 1.4;
+  }
+  
+  .footer-right {
+    display: flex;
+    align-items: flex-end;
+    font-size: 14px;
+    text-align: right;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      text-align: left;
+    }
+  
+    .footer-left, .footer-right {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  
+    .footer-right {
+      align-items: flex-start;
+      text-align: left;
+    }
+  }
   
